@@ -9,7 +9,7 @@ namespace TodoList.Api.Services
 {
     /// <summary>
     /// The purpose of IService is to provide a layer of abstraction between the API and the database via transformation, while providing CRUD operations.
-    /// This allows the separate of concerns between the API and the database. There is where we should apply business rules and validation.
+    /// This allows the separate of concerns between the API and the database. This is where we should apply business rules and validation.
     /// </summary>
     public interface IService<TDto> where TDto : IDto
     {
